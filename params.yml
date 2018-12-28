@@ -1,0 +1,14 @@
+source:
+  botToken: '000:01234567890abcdef'
+  pollingTimeout: 10
+  printReceivedUpdates: true
+
+destination:
+  webhookUrl: 'http://mybot.loc/webhook'
+  retryOnError: true
+  retryOnErrorTimeout: 2
+  nextUpdateTimeout: 1
+
+  printWebhookResponse: true
+  apiCallAfterWebhook: true
+  printAPIResultAfterWebhook: true
