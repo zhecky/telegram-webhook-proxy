@@ -9,7 +9,7 @@ This tiny programm will helps You. It just getting update using [getUpdates](htt
 
 1. Create dir
 ```bash
-mkdir foo && cd "$_"
+mkdir webhookproxy && cd "$_"
 ```
 
 2. Clone repo
